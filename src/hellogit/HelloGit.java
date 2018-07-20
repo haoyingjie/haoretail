@@ -1,5 +1,7 @@
 package hellogit;
 
+import animal.Dog;
+
 public class HelloGit {
 
 	public static void main(String[] args) {
@@ -11,8 +13,11 @@ public class HelloGit {
 		zhangsan.setName("张宝宝");
 		
 		System.out.println(zhangsan.getName()+"年龄是："+zhangsan.getAge()+"说"+zhangsan.speak("张楚岚，你干啥子！"));
+		Dog dog=new Dog();
+		dog.setName("逗逗");
+		System.out.println(zhangsan.getName()+"have a dog named "+dog.getName());
 		
 	}
-	
+
 
 }
